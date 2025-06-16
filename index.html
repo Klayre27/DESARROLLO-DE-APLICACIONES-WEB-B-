@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Página HTML5</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenido a mi página HTML5</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#contenido">Contenido</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Introducción</h2>
+      <p>Esta página fue creada para demostrar el uso de <strong>HTML5</strong> con etiquetas <em>semánticas</em>.</p>
+
+      <!-- Imagen funcional -->
+      <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="Árbol bonito" width="400">
+
+      <!-- Video funcional -->
+      <video controls width="400">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Tu navegador no soporta este video.
+      </video>
+    </section>
+
+    <section id="contenido">
+      <h2>Listas y tabla</h2>
+
+      <h3>Lista ordenada</h3>
+      <ol>
+        <li>Encabezados</li>
+        <li>Texto con formato</li>
+        <li>Elementos multimedia</li>
+      </ol>
+
+      <h3>Lista desordenada</h3>
+      <ul>
+        <li>Imagen</li>
+        <li>Video</li>
+        <li>Formulario</li>
+      </ul>
+
+      <h3>Tabla</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Elemento</th>
+            <th>Función</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Imagen</td>
+            <td>Mostrar contenido visual</td>
+          </tr>
+          <tr>
+            <td>Video</td>
+            <td>Agregar multimedia</td>
+          </tr>
+          <tr>
+            <td>Formulario</td>
+            <td>Recibir datos del usuario</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Enlace externo: <a href="https://www.ecuador.gob.ec/" target="_blank">Gobierno del Ecuador</a></p>
+    </section>
+
+    <article id="contacto">
+      <h2>Formulario de contacto</h2>
+      <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Sitio Web | Página creada con fines educativos</p>
+  </footer>
+
+</body>
+</html>
